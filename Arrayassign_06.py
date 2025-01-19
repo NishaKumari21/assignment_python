@@ -14,7 +14,7 @@ print("reverse:",a)
 print("tpecode of array:",v.typecode)
 # typecode--type of value used eg signed int,unsigned int,bytes etc.
 print("no of time varaible present:",v.count(2))
-# to print one by one value:
+# to print one by one value:--
 for i in v:
     print(i)
 # length of array:
