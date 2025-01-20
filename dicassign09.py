@@ -49,8 +49,6 @@ def check_order_of_characters(string):
     return list(ordered_dict.keys())
 string = "nisha is amazing"
 print("Order of characters:", check_order_of_characters(string))
-
-
 # Q7sort Python Dictionaries by Key or Value
 dictionary = {'zpple': 10, 'banana': 5, 'cherry': 7, 'date': 3}
 # Sorting by key
