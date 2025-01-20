@@ -43,12 +43,12 @@ print(d3)
 # Q6to check order of character in string using OrderedDict()
 from collections import OrderedDict
 
-def check_order_of_characters(string):
+def check_orderof_characters(string):
     # Create an OrderedDict to keep the order of characters
     ordered_dict = OrderedDict.fromkeys(string)
     return list(ordered_dict.keys())
 string = "nisha is amazing"
-print("Order of characters:", check_order_of_characters(string))
+print("Order of characters:", check_orderof_characters(string))
 # Q7sort Python Dictionaries by Key or Value
 dictionary = {'zpple': 10, 'banana': 5, 'cherry': 7, 'date': 3}
 # Sorting by key
