@@ -1,5 +1,5 @@
 # decorator are usef to add more functionality and features to the existing function
-# for eg it denominator is greater then numinator then error will comes so will can change the format of fucntion without doing anything to code just by adding another function 
+
 # here decorator means no matter in which order we pass the function argmnets but we want the answer same and everytime the b should be greater ie denominator
 # def div(a,b):
 #     if a<b:
