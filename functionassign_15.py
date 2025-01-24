@@ -20,4 +20,10 @@ salaries={"ayush":9990,
           "rahul":6666,
           "pummy":4787}
 print(sum_budget(salaries))
+# Q3Create a function that takes a string and returns a string with its letters in alphabetical order.
+def alpha_sort(string):
+    return sorted(string)
+string="hello"
+print(alpha_sort(string))
+
 
