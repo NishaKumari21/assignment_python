@@ -25,5 +25,30 @@ def alpha_sort(string):
     return sorted(string)
 string="hello"
 print(alpha_sort(string))
+"""Q4Question4
+Suppose that you invest $10,000 for 10 years at an interest rate of 6% compounded monthly.
+What will be the value of your investment at the end of the 10 year period?
+Create a function that accepts the principal p, the term in years t, the interest rate r, and the
+number of compounding periods per year n. The function returns the value at the end of term
+rounded to the nearest cent."""
+def ci(p,t,r,n):
+    return round(p*(1+r/n)**(n*t),2)
+
+p= 10000
+n = 10
+t = 1
+r = 0.06
+print(ci(p,t,r,n))
+# Q5Write a function that takes a list of elements and returns only the integers.
+def reint(input_list):
+    result = []  
+    for i in input_list:
+        if type(i) == int:  
+         result.append(i)  
+    return "These are the integer type elements:", result
+
+input_list = [2, 4, "nisha", "hj", "park"]
+print(reint(input_list))
+
 
 
