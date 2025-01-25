@@ -18,7 +18,7 @@ Then, the output of the program should be:
 
 
 
-Question 4:
+Question 3:
 Assuming that we have some email addresses in the &quot;username@companyname.com&quot; format,
 please write program to print the user name of a given email address. Both user names and
 company names are composed of letters only.
@@ -28,7 +28,7 @@ john@google.com
 Then, the output of the program should be:
 john
 
-Question 5:
+Question 4:
 Define a class named Shape and its subclass Square. The Square class has an init function
 which takes a length as argument. Both classes have a area function which can print the area
 of the shape where Shape&#39;s area is 0 by default."""
